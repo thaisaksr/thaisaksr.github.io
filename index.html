@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +12,38 @@
 </head>
 <body>
     <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+              <li class="menu__item">
+                <a class="menu__link active" href="#home">
+                  <span class="menu__text">Home</span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                  <span class="menu__text">Projetos</span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                  <span class="menu__text">Sobre</span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contato">
+                  <span class="menu__text">Contato</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         <div class="header__brand">
               <img class="brand__logo" src="assets/images/logo-thai.png" alt="Logo logo THAI">
         </div >
+        <div class="header__toogle">
         <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
     </header>
-    <nav>
+    <nav class="nav--mobile">
         <ul class="menu menu--mobile"> 
             <li class="menu__item">
                 <a class="menu__link active" href="#home">
@@ -48,6 +74,13 @@
     <main id="home">
         <div class="main__content1">
           <h1><b>Soluções Criativas &</b> pouco de Desenvolvimento</h1>
-          <p>Thaisa Karla Rodrigues, UX/UI Designer</p> 
-            </body> 
+          <p>Thaisa Karla Rodrigues, UX/UI Designer</p>  
+    </main>
+    <footer>
+        <p>
+            © 2024. Portfólio desenvolvido para fins pessoais por
+      <a href="https://github.com/thaisaksr" target="_blank">Thaisa Rodrigues</a>.
+        </p>
+    </footer>
+</body>         
 </html>
